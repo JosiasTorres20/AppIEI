@@ -6,20 +6,21 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.myapplication.Screens.LoginScreen
 import com.example.myapplication.Screens.PrincipalScreen
-import com.example.myapplication.Screens.SegundaScreen
+import com.example.myapplication.ui.screens.HistorialCaidasScreen
 
 @Composable
 fun NavController(){
     val navController = rememberNavController()
     NavHost(navController,startDestination = "login"){
+
         composable("login"){
             LoginScreen(navController)
         }
         composable("principal") {
             PrincipalScreen(navController)
         }
-        composable("segunda"){
-            SegundaScreen(navController)
+        composable("historial") {
+            HistorialCaidasScreen(navController)
         }
     }
 }

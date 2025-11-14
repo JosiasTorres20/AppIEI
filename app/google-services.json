@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "463851475825",
+    "project_id": "caidas-5a2d1",
+    "storage_bucket": "caidas-5a2d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463851475825:android:5fba5e6eb16ab180a55cd0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4VzLKILlVBUbtMfEBavFa1ZRMihyHQyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
